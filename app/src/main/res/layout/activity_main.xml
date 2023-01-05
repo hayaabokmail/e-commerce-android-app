@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/re_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="re-password"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Register" />
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:text="go to sign in"
+        android:backgroundTint="@color/black"
+        />
+</LinearLayout>
